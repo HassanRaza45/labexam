@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@700&display=swap" />
+    <style>
+        /* Add your CSS styles here */
+        /* For responsiveness, you can use media queries */
+        @media (max-width: 768px) {
+            /* Add styles for mobile devices here */
+        }
+    </style>
+</head>
+<body>
+<div class="peerlink">
+    <header class="rectangle-parent">
+        <div class="group-child"></div>
+        <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+    </header>
+    <div class="home-parent">
+        <button class="home">Home</button>
+        <button class="about">About</button>
+        <button class="services">Services</button>
+    </div>
+    <div class="peerlink-child"></div>
+    <button class="sign-in">Sign In</button>
+    <b class="unlocking-secure-connections">Unlocking Secure Connections Beyond Email and Phone</b>
+    <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+    <section class="rectangle-group" id="carosal">
+        <div class="group-item"></div>
+        <img class="icon-parkleft-c" alt="" src="./public/iconparkleftc.svg" />
+        <img class="icon-parkright-c" alt="" src="./public/iconparkrightc.svg" />
+        <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+        <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+        <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
+    </section>
+    <section class="want-your-peers-to-engage-with-parent">
+        <b class="want-your-peers">Want your peers to engage with each other?</b>
+        <div class="rectangle-container">
+            <button class="group-inner"></button>
+            <button class="get-started">Get Started</button>
+        </div>
+    </section>
+    <section class="peerlink-item"></section>
+    <div class="features-parent">
+        <b class="features">Features:</b>
+        <div class="group-parent">
+            <button class="group-button">
+                <div class="rectangle-div"></div>
+                <b class="track-peers-communication-container">
+                    <p class="track-peers">Track Peers</p>
+                    <p class="track-peers">Communication</p>
+                </b>
+            </button>
+            <button class="rectangle-parent1">
+                <div class="rectangle-div"></div>
+                <b class="get-alert-for">Get Alert for harmful communication</b>
+            </button>
+            <button class="rectangle-parent2">
+                <div class="rectangle-div"></div>
+                <b class="track-sentiments-of">Track sentiments of communication</b>
+            </button>
+            <div class="group-div">
+                <button class="rectangle-button"></button>
+                <b class="data-analysis">Data Analysis</b>
+            </div>
+        </div>
+    </div>
+    <section class="group-container">
+        <div class="rectangle-parent3">
+            <input class="rectangle-input" name="Text" id="Text" type="text" />
+            <b class="eg-zoya-memon">e.g Zoya Memon</b>
+            <b class="full-name">Full Name</b>
+        </div>
+        <div class="rectangle-parent4">
+            <input class="rectangle-input" name="Email" id="Email" type="text" />
+            <input class="eg-zoyamemon767gmailcom" name="Email" id="Email" type="text" />
+            <b class="email">Email</b>
+        </div>
+        <div class="rectangle-parent5">
+            <input class="rectangle-input" name="number" id="number" type="text" />
+            <input class="eg-zoyamemon767gmailcom" name="number" id="number" type="text" />
+            <b class="email">Contact Number</b>
+        </div>
+        <div class="rectangle-parent6">
+            <input class="rectangle-input" name="text" id="message" type="text" />
+            <b class="eg-requesting-for">Comment</b>
+        </div>
+        <b class="contact-now">Contact Now</b>
+        <button class="rectangle-parent7">
+            <button class="group-inner"></button>
+            <button class="submit-request" id="submit-button">Submit Request</button>
+        </button>
+    </section>
+    <footer class="peerlink-inner"></footer>
+    <b class="all-rights-are">All rights are reserved by @SukkurIBAUniversity 2023</b>
+</div>
+
+<script>
+    document.getElementById("submit-button").addEventListener("click", function () {
+        var fullName = document.getElementById("Text").value;
+        var email = document.getElementById("Email").value;
+        var contactNumber = document.getElementById("number").value;
+        var comment = document.getElementById("message").value;
+
+        console.log("Full Name: " + fullName);
+        console.log("Email: " + email);
+        console.log("Contact Number: " + contactNumber);
+        console.log("Comment: " + comment);
+    });
+</script>
+</body>
+</html>
